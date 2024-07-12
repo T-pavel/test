@@ -20,11 +20,6 @@ const UserCard = (props: CardProp) => {
 			</div>
 			<span className={style.cardInfo}>{props.data.name}</span>
 			<span className={style.cardInfo}>{props.data.surname}</span>
-			<div className={style.heartContainer}>
-				<div>
-					<img className={style.heart} src='/heart.png' alt='' />
-				</div>
-			</div>
 		</div>
 	)
 }
